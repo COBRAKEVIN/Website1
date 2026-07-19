@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "aros-static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "5510", "."],
+      "port": 5510
+    },
+    {
+      "name": "axith-edits",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "5511", "C:\\Users\\kevin\\Downloads\\Website_Test"],
+      "port": 5511
+    }
+  ]
+}
