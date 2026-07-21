@@ -99,7 +99,14 @@
       "PowerShell($adb=\"$env:LOCALAPPDATA\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb logcat -d | Select-String -Pattern \"arosdesign|GH.LauncherApps\" | Select-Object -First 12)",
       "WebFetch(domain:fermata-auto.com)",
       "PowerShell($adb=\"$env:LOCALAPPDATA\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb devices; Write-Output \"--- installer now:\"; & $adb shell \"dumpsys package com.arosdesign.ambient | grep installerPackageName\")",
-      "Bash(xxd)"
+      "Bash(xxd)",
+      "Read(//c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/**)",
+      "Bash(/c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg -i 'C:\\\\Users\\\\kevin\\\\Downloads\\\\aros-design-site\\\\aros-design-site\\\\images\\\\M5_Header_4k.png')",
+      "Bash(/c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg -y -loglevel error -i 'C:\\\\Users\\\\kevin\\\\Downloads\\\\aros-design-site\\\\aros-design-site\\\\images\\\\M5_Header_4k.png' -vf scale=2560:-1 -c:v libwebp -q:v 82 /c/Users/kevin/Downloads/aros-design-site/aros-design-site/images/m5-hero.webp)",
+      "Bash(/c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg -y -loglevel error -i 'C:\\\\Users\\\\kevin\\\\Downloads\\\\aros-design-site\\\\aros-design-site\\\\images\\\\M5_Header_4k.png' -vf scale=1100:-1 -c:v libwebp -q:v 78 /c/Users/kevin/Downloads/aros-design-site/aros-design-site/images/m5-hero-mobile.webp)",
+      "Bash(/c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg -i 'C:\\\\Users\\\\kevin\\\\Downloads\\\\aros-design-site\\\\aros-design-site\\\\images\\\\m5-hero-mobile.png')",
+      "Bash(/c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg -y -loglevel error -i 'C:\\\\Users\\\\kevin\\\\Downloads\\\\aros-design-site\\\\aros-design-site\\\\images\\\\m5-hero-mobile.png' -c:v libwebp -q:v 85 /c/Users/kevin/Downloads/aros-design-site/aros-design-site/images/m5-hero-mobile.webp)",
+      "Bash(/c/Users/kevin/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg -i /d/Unreal/Aros/Aros_Bodykits/Saved/MovieRenders/Website_Render/Rotate/Rotate.0000.png)"
     ]
   }
 }
